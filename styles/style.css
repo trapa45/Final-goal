@@ -27,7 +27,7 @@ body{
     text-align: center;
 }
 .button{
-    text-align: center;
+    justify-content: center;
     display: inline-block;
     background: #ff523b;
     color: #fff;
