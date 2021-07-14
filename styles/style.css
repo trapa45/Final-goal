@@ -46,21 +46,56 @@ body{
  players styles
   -------------------*/
  .players{
-    background-color:#FFFFFF ; 
-    width: 1050px;
-    padding: 30px;
-    border-radius: 5px;
-    margin-top: 21px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
-    justify-content: space-between;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   width: 860px;
+   padding: 30px;
+   border-radius: 8px;
+   margin-top: 20px;
+   box-shadow: ;
  } 
+ .box{
+     display: flex;
+     flex-wrap: wrap;
+     height: 474px;
+     width: 330px;
+     padding-top: 20px;
+     padding-left: 10px;
+     padding-right: 10px;
+     margin-right: 10px;
+     margin-left: 50px;
+ }
  .player-img img{
     width: 300px;
     height: 256px; 
  }
-  
+.player-info{
+    text-align: justify;
+    background-color: white;
+}
+
+
+
+
+
+
+
+/*---------------
+ lasttheend
+ --------------------*/
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 483.87px;
+    height: 213px;
+    left: 475px;
+    top: 3474px;
+
+}
 
   
   
