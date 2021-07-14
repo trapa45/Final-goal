@@ -15,6 +15,7 @@ body{
 .intro{
     flex-basis: 50%;
     min-width: 300px;
+    
 }
 .intro img{
     max-width: 100%;
@@ -27,8 +28,7 @@ body{
     text-align: center;
 }
 .button{
-    justify-content: center;
-    display: inline-block;
+     display: inline-block;
     background: #ff523b;
     color: #fff;
     padding: 8px 30px;
@@ -40,3 +40,24 @@ body{
 .button:hover{
  background: #563434;
 }
+
+/*----------------------
+ players styles
+  -------------------*/
+  
+  .container{
+      width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+  }
+  .player{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-column-gap: 24px;
+  }
+  .player .player-img img{
+    width: 300px;
+    height: 256px;
+  }
