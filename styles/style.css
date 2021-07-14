@@ -4,13 +4,13 @@ body{
 }
 
 .start{
-    background-color: blue;
+    background-color: rgb(89, 89, 241);
 }
 .header{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+   justify-content: space-around;
 }
 .intro{
     flex-basis: 50%;
@@ -28,6 +28,7 @@ body{
     text-align: center;
 }
 .button{
+    align-items: center;
      display: inline-block;
     background: #ff523b;
     color: #fff;
@@ -44,19 +45,25 @@ body{
 /*----------------------
  players styles
   -------------------*/
-  
   .container{
-      width: 870px;
+    background-color:#FFFFFF ; 
+    width: 870px;
     padding: 30px;
     border-radius: 5px;
     margin-top: 21px;
-  }
-  .player{
-    
-    display: grid;
-    grid-template-columns: repeat(3, 4fr);
+    }
+    .players{
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
-  }
+    }
+  
+
+  
+  
+  
+  
+
   .player .player-img img{
     width: 300px;
     height: 256px;
