@@ -2,6 +2,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* lets-start */
 
 .start{
     background-color: rgb(89, 89, 241);
@@ -74,23 +75,6 @@ body{
     background-color: white;
 }
 
-.comment{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-
-position: static;
-width: 469px;
-height: 241px;
-left: 0px;
-top: 0px;
-}
-
-
-
-
-
 
 
 /*---------------
@@ -112,6 +96,33 @@ top: 0px;
 .icon:hover{
    background: #ff523b;
 }
+
+/* ----------------------------
+      Media Queries
+ ----------------------*/
+
+ /* Mobile Devices */
+ @media only screen and (max-width:800px){
+    .start{
+        width: 100%;
+    }
+    .players{
+       grid-template-columns: repeat(1, 1fr);
+    }
+
+   
+
+
+/* tablet devices */
+@media only screen and (min-width: 668px) and (max-width:992px) {
+    .start{
+        width: 100%;
+    }
+    .players{
+       grid-template-columns: repeat(1, 1fr);
+    }
+
+
   
   
   
